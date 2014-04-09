@@ -9,8 +9,12 @@
 #import "AppDelegate.h"
 
 #import "ViewController.h"
-
+#import "SwipeNavigationController.h"
+#import "SideBarViewController.h"
 @implementation AppDelegate
+{
+    SideBarViewController *sideBarController;
+}
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
@@ -21,8 +25,11 @@
     } else {
         self.viewController = [[ViewController alloc] initWithNibName:@"ViewController_iPad" bundle:nil];
     }
-    self.window.rootViewController = self.viewController;
-    [self.window makeKeyAndVisible];
+    
+    sideBarController = [[SideBarViewController alloc]initWithNibName:@"SideBarViewController" bundle:nil];
+    SwipeNavigationController *nav=[[SwipeNavigationController alloc]initWithRootViewController:sideBarController];
+    self.window.rootViewController = nav;
+       [self.window makeKeyAndVisible];
     return YES;
 }
 

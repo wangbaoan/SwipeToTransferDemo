@@ -19,6 +19,17 @@
 		7C02B711171E3FDC0075B904 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C02B710171E3FDC0075B904 /* ViewController.m */; };
 		7C02B714171E3FDC0075B904 /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7C02B712171E3FDC0075B904 /* ViewController_iPhone.xib */; };
 		7C02B717171E3FDC0075B904 /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7C02B715171E3FDC0075B904 /* ViewController_iPad.xib */; };
+		7C02B71F171E40250075B904 /* SwipeNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C02B71E171E40250075B904 /* SwipeNavigationController.m */; };
+		7C02B723171E405D0075B904 /* TheSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C02B721171E405D0075B904 /* TheSecondViewController.m */; };
+		7C02B724171E405D0075B904 /* TheSecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7C02B722171E405D0075B904 /* TheSecondViewController.xib */; };
+		7C02B726171E41520075B904 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C02B725171E41520075B904 /* QuartzCore.framework */; };
+		7C02B72C171EA6040075B904 /* touchTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C02B72B171EA6040075B904 /* touchTableView.m */; };
+		7C02CA14171FA7D400E36F8D /* LeftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C02CA12171FA7D400E36F8D /* LeftViewController.m */; };
+		7C02CA15171FA7D400E36F8D /* LeftViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7C02CA13171FA7D400E36F8D /* LeftViewController.xib */; };
+		7C02CA19171FA7E800E36F8D /* RightViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C02CA17171FA7E800E36F8D /* RightViewController.m */; };
+		7C02CA1A171FA7E800E36F8D /* RightViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7C02CA18171FA7E800E36F8D /* RightViewController.xib */; };
+		7C02CA1E171FCCE700E36F8D /* SideBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C02CA1C171FCCE700E36F8D /* SideBarViewController.m */; };
+		7C02CA1F171FCCE700E36F8D /* SideBarViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7C02CA1D171FCCE700E36F8D /* SideBarViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +50,23 @@
 		7C02B710171E3FDC0075B904 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		7C02B713171E3FDC0075B904 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
 		7C02B716171E3FDC0075B904 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
+		7C02B71D171E40250075B904 /* SwipeNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SwipeNavigationController.h; path = ../SwipeNavigationController.h; sourceTree = "<group>"; };
+		7C02B71E171E40250075B904 /* SwipeNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SwipeNavigationController.m; path = ../SwipeNavigationController.m; sourceTree = "<group>"; };
+		7C02B720171E405D0075B904 /* TheSecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TheSecondViewController.h; path = ../TheSecondViewController.h; sourceTree = "<group>"; };
+		7C02B721171E405D0075B904 /* TheSecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TheSecondViewController.m; path = ../TheSecondViewController.m; sourceTree = "<group>"; };
+		7C02B722171E405D0075B904 /* TheSecondViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TheSecondViewController.xib; path = ../TheSecondViewController.xib; sourceTree = "<group>"; };
+		7C02B725171E41520075B904 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		7C02B72A171EA6040075B904 /* touchTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = touchTableView.h; path = ../touchTableView.h; sourceTree = "<group>"; };
+		7C02B72B171EA6040075B904 /* touchTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = touchTableView.m; path = ../touchTableView.m; sourceTree = "<group>"; };
+		7C02CA11171FA7D400E36F8D /* LeftViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LeftViewController.h; path = ../LeftViewController.h; sourceTree = "<group>"; };
+		7C02CA12171FA7D400E36F8D /* LeftViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LeftViewController.m; path = ../LeftViewController.m; sourceTree = "<group>"; };
+		7C02CA13171FA7D400E36F8D /* LeftViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = LeftViewController.xib; path = ../LeftViewController.xib; sourceTree = "<group>"; };
+		7C02CA16171FA7E800E36F8D /* RightViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RightViewController.h; path = ../RightViewController.h; sourceTree = "<group>"; };
+		7C02CA17171FA7E800E36F8D /* RightViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RightViewController.m; path = ../RightViewController.m; sourceTree = "<group>"; };
+		7C02CA18171FA7E800E36F8D /* RightViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = RightViewController.xib; path = ../RightViewController.xib; sourceTree = "<group>"; };
+		7C02CA1B171FCCE700E36F8D /* SideBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SideBarViewController.h; path = ../SideBarViewController.h; sourceTree = "<group>"; };
+		7C02CA1C171FCCE700E36F8D /* SideBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SideBarViewController.m; path = ../SideBarViewController.m; sourceTree = "<group>"; };
+		7C02CA1D171FCCE700E36F8D /* SideBarViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SideBarViewController.xib; path = ../SideBarViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C02B726171E41520075B904 /* QuartzCore.framework in Frameworks */,
 				7C02B6F8171E3FDC0075B904 /* UIKit.framework in Frameworks */,
 				7C02B6FA171E3FDC0075B904 /* Foundation.framework in Frameworks */,
 				7C02B6FC171E3FDC0075B904 /* CoreGraphics.framework in Frameworks */,
@@ -75,6 +104,7 @@
 		7C02B6F6171E3FDC0075B904 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				7C02B725171E41520075B904 /* QuartzCore.framework */,
 				7C02B6F7171E3FDC0075B904 /* UIKit.framework */,
 				7C02B6F9171E3FDC0075B904 /* Foundation.framework */,
 				7C02B6FB171E3FDC0075B904 /* CoreGraphics.framework */,
@@ -85,10 +115,26 @@
 		7C02B6FD171E3FDC0075B904 /* SwipeToTransferDemo */ = {
 			isa = PBXGroup;
 			children = (
+				7C02CA1B171FCCE700E36F8D /* SideBarViewController.h */,
+				7C02CA1C171FCCE700E36F8D /* SideBarViewController.m */,
+				7C02CA1D171FCCE700E36F8D /* SideBarViewController.xib */,
+				7C02CA16171FA7E800E36F8D /* RightViewController.h */,
+				7C02CA17171FA7E800E36F8D /* RightViewController.m */,
+				7C02CA18171FA7E800E36F8D /* RightViewController.xib */,
+				7C02CA11171FA7D400E36F8D /* LeftViewController.h */,
+				7C02CA12171FA7D400E36F8D /* LeftViewController.m */,
+				7C02CA13171FA7D400E36F8D /* LeftViewController.xib */,
+				7C02B72A171EA6040075B904 /* touchTableView.h */,
+				7C02B72B171EA6040075B904 /* touchTableView.m */,
 				7C02B706171E3FDC0075B904 /* AppDelegate.h */,
 				7C02B707171E3FDC0075B904 /* AppDelegate.m */,
 				7C02B70F171E3FDC0075B904 /* ViewController.h */,
 				7C02B710171E3FDC0075B904 /* ViewController.m */,
+				7C02B71D171E40250075B904 /* SwipeNavigationController.h */,
+				7C02B71E171E40250075B904 /* SwipeNavigationController.m */,
+				7C02B720171E405D0075B904 /* TheSecondViewController.h */,
+				7C02B721171E405D0075B904 /* TheSecondViewController.m */,
+				7C02B722171E405D0075B904 /* TheSecondViewController.xib */,
 				7C02B712171E3FDC0075B904 /* ViewController_iPhone.xib */,
 				7C02B715171E3FDC0075B904 /* ViewController_iPad.xib */,
 				7C02B6FE171E3FDC0075B904 /* Supporting Files */,
@@ -167,6 +213,10 @@
 				7C02B70E171E3FDC0075B904 /* Default-568h@2x.png in Resources */,
 				7C02B714171E3FDC0075B904 /* ViewController_iPhone.xib in Resources */,
 				7C02B717171E3FDC0075B904 /* ViewController_iPad.xib in Resources */,
+				7C02B724171E405D0075B904 /* TheSecondViewController.xib in Resources */,
+				7C02CA15171FA7D400E36F8D /* LeftViewController.xib in Resources */,
+				7C02CA1A171FA7E800E36F8D /* RightViewController.xib in Resources */,
+				7C02CA1F171FCCE700E36F8D /* SideBarViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -180,6 +230,12 @@
 				7C02B704171E3FDC0075B904 /* main.m in Sources */,
 				7C02B708171E3FDC0075B904 /* AppDelegate.m in Sources */,
 				7C02B711171E3FDC0075B904 /* ViewController.m in Sources */,
+				7C02B71F171E40250075B904 /* SwipeNavigationController.m in Sources */,
+				7C02B723171E405D0075B904 /* TheSecondViewController.m in Sources */,
+				7C02B72C171EA6040075B904 /* touchTableView.m in Sources */,
+				7C02CA14171FA7D400E36F8D /* LeftViewController.m in Sources */,
+				7C02CA19171FA7E800E36F8D /* RightViewController.m in Sources */,
+				7C02CA1E171FCCE700E36F8D /* SideBarViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -312,6 +368,7 @@
 				7C02B71C171E3FDC0075B904 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
